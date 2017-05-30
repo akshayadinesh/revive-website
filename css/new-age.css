@@ -314,11 +314,11 @@ section.cta .cta-content h2 {
   margin-bottom: 25px;
   color: white;
   max-width: 450px;
-  font-size: 50px;
+  font-size: 30px;
 }
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 section.cta .overlay {
@@ -369,6 +369,37 @@ section.contact ul.list-social li.social-google-plus a {
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
+
+
+.sponsorsection {
+  margin: 0 auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: left;
+  align-items: left;
+}
+.sponsor {
+  display:flex;
+/*
+  background-color: #000;
+   border: 2px solid black; 
+  border-radius: 3px;
+  -webkit-filter: brightness(0) invert(1);
+*/
+}
+
+.sponsor:hover{
+/*  -webkit-filter: none;*/
+/*   background-color: white; */
+}
+
+.sponsor img {
+  height:80px;
+  margin: 10px;
+}
+
+
+
 footer {
   background-color: #222222;
   padding: 25px 0;
