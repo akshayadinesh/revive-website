@@ -28,11 +28,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: #fcb603;
 }
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #fcb603;
 }
 hr {
   max-width: 100px;
@@ -58,6 +58,7 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -151,11 +152,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  background: #7b4397;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-linear-gradient(to left, #308FAF, #48BA99);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #39A0DA, #39DA8C);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -227,6 +228,7 @@ section h2 {
 section.download {
   padding: 150px 0;
   position: relative;
+  background: #222222;
 }
 section.download h2 {
   margin-top: 0;
@@ -284,8 +286,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-linear-gradient(to left, #57ACE1, #57E1BA);
+  background: linear-gradient(to left, #57ACE1, #57E1BA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -424,12 +426,12 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #fdcc52;
+  background: #222222;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539);
 }
 .text-primary {
-  color: #fdcc52;
+  color: #fcb603;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -438,15 +440,15 @@ footer ul li a.active {
 .btn-outline {
   color: white;
   border-color: white;
-  border: 1px solid;
+  border: 2px solid;
 }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
+  background-color: #fcb603;
+  border-color: #fcb603;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
